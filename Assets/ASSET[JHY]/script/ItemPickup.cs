@@ -6,7 +6,7 @@ public class ItemPickup : MonoBehaviour
     public KeyCode pickupKey = KeyCode.E;
 
     // 아이템 획득 가능한 거리
-    public float pickupRange = 0.1f;
+    public float pickupRange = 0.5f;
 
     public int itemCount;
 
@@ -31,15 +31,15 @@ public class ItemPickup : MonoBehaviour
                 }
             }
 
-            foreach (Collider collider in colliders)
-            {
-                // 아이템에 Item 태그가 있는지 확인
-                if (collider.CompareTag("Light"))
-                {
-                    // 아이템 획득 함수 호출
-                    PickupItem(collider.gameObject);
-                }
-            }
+            //foreach (Collider collider in colliders)
+            //{
+            //    // 아이템에 Item 태그가 있는지 확인
+            //    if (collider.CompareTag("Light"))
+            //    {
+            //        // 아이템 획득 함수 호출
+            //        PickupItem(collider.gameObject);
+            //    }
+            //}
         }
     }
 
@@ -54,15 +54,15 @@ public class ItemPickup : MonoBehaviour
 
        itemCount++;
 
-       EquipItem(item);
+       //EquipItem(item);
     }
 
-    void EquipItem(GameObject item)
-    {
-        if (item.CompareTag("Light"))
-        {
-            Debug.Log("손전등을 장착했습니다.");
-            equippedLight = item;
-        }
-    }
+    //void EquipItem(GameObject item)
+    //{
+    //    if (item.CompareTag("Light"))
+    //    {
+    //        Debug.Log("손전등을 장착했습니다.");
+    //        equippedLight = item;
+    //    }
+    //}
 }
