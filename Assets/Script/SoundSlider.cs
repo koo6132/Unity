@@ -8,7 +8,9 @@ public class SoundSlider : MonoBehaviour
 {
     public Slider BGMSlider;
     public Slider SFXSlider;
+    public Slider Mouse;
     public static SoundSlider instance;
+    public Text text;
     
    
     // Start is called before the first frame update
@@ -20,7 +22,7 @@ public class SoundSlider : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        text.text = Mouse.value.ToString();
     }
     public void BGMVolume()
     {
@@ -36,5 +38,9 @@ public class SoundSlider : MonoBehaviour
     {
        SFXManager.instance.SFX.volume = SFXSlider.value;
         PlayerPrefs.SetFloat("SFXv", SFXSlider.value);
+    }
+    public void Mouses()
+    {
+        PlayerPrefs.SetFloat("Mouse", Mouse.value);
     }
 }

@@ -49,6 +49,8 @@ public class Main: MonoBehaviour
         MainbgmManager.instance.audioSource.Play();
         SoundManager.instance.bgsound.clip = null;
         SceneManager.LoadScene("Main");
+       // PlayerPrefs.SetInt("Stage", Stage.instance.index);
+        
         
     }
     public void OnKey()

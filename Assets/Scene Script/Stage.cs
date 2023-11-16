@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+using TMPro;
 public class Stage : MonoBehaviour
 {
-    
     public Image stageImage;
-    public Text stageNameText ;
+    public TextMeshProUGUI stageNameText ;
     public Button startButton;
     [SerializeField]
     private string[] stageName = { "1", "2", "3", "4" };
@@ -30,7 +29,7 @@ public class Stage : MonoBehaviour
     {
       
          index = GameManager.instance.stage; 
-       stageNameText = transform.Find("Stage").GetComponent<Text>();
+       stageNameText = transform.Find("Stage").GetComponent<TextMeshProUGUI>();
     }
     
     public void onClickNextStage()
