@@ -53,5 +53,8 @@ public class Stage1Dadanoff : MonoBehaviour {
         yield return new WaitForSeconds(1f);
         Destroy(G);
         audio.Play();
+
+        yield return new WaitForSeconds(1f);
+
     }
 }
