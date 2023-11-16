@@ -13,11 +13,11 @@ public class itemRotate : MonoBehaviour
         transform.Rotate(Vector3.up * ratateSpeed * Time.deltaTime, Space.World);
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other .tag == "Player")
-        {
-            gameObject.SetActive(false);
-        }
-    }
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if(other .tag == "Player")
+    //    {
+    //        gameObject.SetActive(false);
+    //    }
+    //}
 }
