@@ -20,9 +20,8 @@ public class Stage1StartMusic : MonoBehaviour
 
 
     }
-
     private void OnTriggerEnter(Collider other)
-    {
+    { 
         if (other.gameObject.CompareTag("Player") && !hasPlayed)
         {
             audio.Play();
