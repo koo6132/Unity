@@ -25,4 +25,11 @@ public class Kill : MonoBehaviour
             Debug.Log("2¹ø");
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Debug.Log("2¹ø");
+    }
+
 }
