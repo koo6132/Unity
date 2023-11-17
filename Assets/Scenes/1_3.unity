@@ -330,8 +330,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d65efb3ae4a7554ea1f5711db6da553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A: {fileID: 218725668}
-  B: {fileID: 770295366}
 --- !u!65 &43777234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1121,11 +1119,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178373728}
   m_CullTransparentMesh: 1
---- !u!1 &208199734 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 179298, guid: 2fa97d29375bda64080d41087c0c107c, type: 3}
-  m_PrefabInstance: {fileID: 1622506940}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &218725668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2283,15 +2276,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d560a666e8bd7284dabd209f5d8b337a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A: {fileID: 208199734}
   B: {fileID: 2019440987}
   C: {fileID: 720772315}
   D: {fileID: 1026177556}
   E: {fileID: 573379973}
   F: {fileID: 132620965}
   G: {fileID: 234045045}
-  H: {fileID: 1513588570}
-  I: {fileID: 55351168}
 --- !u!65 &528944277
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3250,8 +3240,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d65efb3ae4a7554ea1f5711db6da553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A: {fileID: 113958619}
-  B: {fileID: 770295366}
 --- !u!1001 &645993877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5483,8 +5471,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d65efb3ae4a7554ea1f5711db6da553, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A: {fileID: 884158605}
-  B: {fileID: 770295366}
 --- !u!65 &1014646056
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10686,7 +10672,6 @@ MonoBehaviour:
   cameraCanMove: 1
   mouseSensitivity: 2
   maxLookAngle: 40
-  DPI: 0
 --- !u!54 &1986183461
 Rigidbody:
   m_ObjectHideFlags: 0
