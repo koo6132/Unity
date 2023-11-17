@@ -23,7 +23,7 @@ public class itemUI : MonoBehaviour
                 UiButton.SetActive(true);
                 if (Input.GetKey(KeyCode.E))
                 {
-                    Debug.Log("PRESS E");
+                    Debug.Log("æ∆¿Ã≈€¿ª »πµÊ«ﬂΩ¿¥œ¥Ÿ: ");
                     A.SetActive(false);
                     //b.Play();
                     onTriggerButton?.Invoke();
