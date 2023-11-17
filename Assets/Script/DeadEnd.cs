@@ -5,12 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class DeadEnd : MonoBehaviour
 {
+    
     // Start is called before the first frame update
     void Start()
     {
+       
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-
+        SoundManager.instance.bgsound.loop = false;
     }
 
     // Update is called once per frame
@@ -20,8 +22,7 @@ public class DeadEnd : MonoBehaviour
     }
     public void onClickStartButton()
     {
-        PlayerPrefs.SetFloat("BGM", MainbgmManager.instance.audioSource.volume);
-        MainbgmManager.instance.audioSource.volume = 0;
+        
 
         if (Time.timeScale == 0)
         {

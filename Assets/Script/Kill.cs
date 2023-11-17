@@ -25,12 +25,15 @@ public class Kill : MonoBehaviour
             Debug.Log("2¹ø");
         }
     }
+<<<<<<< Updated upstream
+=======
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Kill")) 
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("Result");
             Debug.Log("2¹ø");
         }
     }
+>>>>>>> Stashed changes
 }
