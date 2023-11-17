@@ -28,6 +28,9 @@ public class DataManager : MonoBehaviour
         if (!File.Exists(path))
         {
             PlayerStage.instance.playerStage = 0;
+            PlayerPrefs.SetFloat("BGMv", 1);
+            PlayerPrefs.SetFloat("SFXv", 1);
+            PlayerPrefs.SetFloat("Mouse", 10);
 
             JsonSave();
         }
@@ -39,7 +42,9 @@ public class DataManager : MonoBehaviour
             if (saveData != null)
             {
                 PlayerStage.instance.playerStage = saveData.stage;
-
+                PlayerPrefs.SetFloat("BGMv", SoundSlider.instance.BGMSlider.value);
+                PlayerPrefs.SetFloat("SFXv", SoundSlider.instance.SFXSlider.value);
+                PlayerPrefs.SetFloat("Mouse", SoundSlider.instance.Mouse.value);
             }
         }
     }

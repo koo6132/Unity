@@ -8,12 +8,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     bool isPause;
-    
+
     public int Level;
     public int stage;
     void Awake()
     {
-        
+
         if (instance == null)
         {
             instance = this;
@@ -24,7 +24,12 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-    }
 
-    
+    }
+    private void Update()
+    {
+        stage = PlayerPrefs.GetInt("Stage");
+    }
 }
+
+

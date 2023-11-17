@@ -21,7 +21,7 @@ public class MainbgmManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-       
+        audioSource.volume = PlayerPrefs.GetFloat("BGMv");
     }
 
 
