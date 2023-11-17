@@ -11,18 +11,30 @@ public class SoundSlider : MonoBehaviour
     public Slider Mouse;
     public static SoundSlider instance;
     public Text text;
+    public Text BGMV;
+    public Text SFXV;
     
    
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        text.text = Mouse.value.ToString();
+        int MouseValue = Mathf.RoundToInt(Mouse.value);
+        text.text = MouseValue.ToString();
+        Mouse.value = PlayerPrefs.GetFloat("Mouse");
+
+        
+        BGMV.text = BGMSlider.value.ToString("F2");
+        BGMSlider.value = PlayerPrefs.GetFloat("BGMv");
+
+        
+        SFXV.text = SFXSlider.value.ToString("F2");
+        SFXSlider.value = PlayerPrefs.GetFloat("SFXv");
     }
     public void BGMVolume()
     {

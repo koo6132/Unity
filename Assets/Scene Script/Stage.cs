@@ -41,6 +41,7 @@ public class Stage : MonoBehaviour
             Debug.Log(index);
         }
         Debug.Log(index);
+        PlayerPrefs.SetInt("Stage", index);
     }
 
     public void onClickBackStage()
@@ -52,6 +53,7 @@ public class Stage : MonoBehaviour
             Debug.Log(index);
         }
         Debug.Log(index);
+        PlayerPrefs.SetInt("Stage", index);
     }
     private void Update()
     {
