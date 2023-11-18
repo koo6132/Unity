@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.08558715, g: 0.18905303, b: 0.43228, a: 1}
+  m_IndirectSpecularColor: {r: 0.085332744, g: 0.18906015, b: 0.4323818, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12045,15 +12045,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.79
+      value: 21.369
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.31
+      value: 9.894
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.4
+      value: 39.99
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16850,6 +16850,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 198336, guid: 72281b9d1ce3f3e4da8ab92b2d502470, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1215173903}
+    - targetCorrespondingSourceObject: {fileID: 198336, guid: 72281b9d1ce3f3e4da8ab92b2d502470, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1215173907}
   m_SourcePrefab: {fileID: 100100000, guid: 72281b9d1ce3f3e4da8ab92b2d502470, type: 3}
 --- !u!4 &1215173899 stripped
 Transform:
@@ -16873,7 +16876,102 @@ MonoBehaviour:
   C: {fileID: 2039126688}
   player: {fileID: 906114787}
   tr: {fileID: 280004184}
-  D: {fileID: 8300000, guid: c9ca57502fe4edd4292fdb464665c84f, type: 3}
+--- !u!82 &1215173907
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580659050}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c9ca57502fe4edd4292fdb464665c84f, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1216078361
 PrefabInstance:
   m_ObjectHideFlags: 0
