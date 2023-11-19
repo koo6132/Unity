@@ -24,7 +24,7 @@ public class DoorSliding : MonoBehaviour
             if (Door.transform.localPosition.x >= -2.3f)
             {
 
-                Door.transform.Translate(-0.01f, 0, 0);
+                Door.transform.Translate(-0.025f, 0, 0);
             }
         }
 
@@ -33,7 +33,7 @@ public class DoorSliding : MonoBehaviour
             if (Door.transform.localPosition.x < -1.40f)
             {
 
-                Door.transform.Translate(0.01f, 0, 0);
+                Door.transform.Translate(0.025f, 0, 0);
             }
         }
     }
