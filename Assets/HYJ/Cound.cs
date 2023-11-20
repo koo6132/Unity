@@ -23,7 +23,7 @@ public class Cound : MonoBehaviour
         }
         else if (distance < minDistance)
         {
-            audioSource.volume = 1f;
+            audioSource.volume = 3f;
         }
         else
         {
