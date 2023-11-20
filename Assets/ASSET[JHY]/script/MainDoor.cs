@@ -8,6 +8,7 @@ public class MainDoor : MonoBehaviour
     public GameObject Door;
     public KeyCode Key = KeyCode.G;
     public float Range = 0.5f;
+    public AudioSource b;
 
 
     // Start is called before the first frame update
@@ -46,6 +47,8 @@ public class MainDoor : MonoBehaviour
             {
                 flag = true;
                 Debug.Log("¾È³ç");
+                b.Play();
+
             }
         }
 
