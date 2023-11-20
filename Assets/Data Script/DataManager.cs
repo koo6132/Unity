@@ -16,8 +16,8 @@ public class DataManager : MonoBehaviour
 
     void Start()
     {
-        
-        path = Path.Combine(Application.dataPath + "/Data/", "database.json");
+
+        path = Path.Combine(Application.persistentDataPath, "database.json");
         JsonLoad();
     }
 
@@ -27,7 +27,7 @@ public class DataManager : MonoBehaviour
 
         if (!File.Exists(path))
         {
-            PlayerStage.instance.playerStage = 0;
+            PlayerPrefs.SetInt("PlayerStage",0);
             PlayerPrefs.SetFloat("BGMv", 1);
             PlayerPrefs.SetFloat("SFXv", 1);
             PlayerPrefs.SetFloat("Mouse", 10);
@@ -41,7 +41,7 @@ public class DataManager : MonoBehaviour
 
             if (saveData != null)
             {
-                PlayerStage.instance.playerStage = saveData.stage;
+                PlayerPrefs.SetInt("PlayerStage", PlayerPrefs.GetInt("PlayerStage"));
                 PlayerPrefs.SetFloat("BGMv", SoundSlider.instance.BGMSlider.value);
                 PlayerPrefs.SetFloat("SFXv", SoundSlider.instance.SFXSlider.value);
                 PlayerPrefs.SetFloat("Mouse", SoundSlider.instance.Mouse.value);

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using TMPro;
 
 public class SoundSlider : MonoBehaviour
 {
@@ -10,9 +11,9 @@ public class SoundSlider : MonoBehaviour
     public Slider SFXSlider;
     public Slider Mouse;
     public static SoundSlider instance;
-    public Text text;
-    public Text BGMV;
-    public Text SFXV;
+    public TextMeshProUGUI text;
+    public TextMeshProUGUI BGMV;
+    public TextMeshProUGUI SFXV;
     
    
     // Start is called before the first frame update
