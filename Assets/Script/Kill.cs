@@ -25,6 +25,10 @@ public class Kill : MonoBehaviour
             Debug.Log("2¹ø");
         }
     }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Kill")) 
