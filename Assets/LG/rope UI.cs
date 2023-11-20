@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class gamemanagerlogic : MonoBehaviour
+public class ropeUI : MonoBehaviour
 {
-    public int Totalitemcount;
     // Start is called before the first frame update
     void Start()
     {

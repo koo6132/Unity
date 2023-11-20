@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class item : MonoBehaviour
+public class item2cha : MonoBehaviour
 {
     // 아이템을 획득할 키
     public KeyCode pickupKey = KeyCode.E;
-   
-    
+    public GameObject ui11;
+    int a = 0;
 
     // 아이템 획득 가능한 거리
     public float pickupRange = 1f;
@@ -13,8 +13,11 @@ public class item : MonoBehaviour
     public int itemCount;
 
     private GameObject equippedLight;
+    private void Start()
+    {
+        ui11.SetActive(false);
+    }
 
-    
 
     void Update()
     {
@@ -30,7 +33,7 @@ public class item : MonoBehaviour
                 // 아이템에 Item 태그가 있는지 확인
                 if (collider.CompareTag("item"))
                 {
-                    
+
                     // 아이템 획득 함수 호출
                     PickupItem(collider.gameObject);
                 }
@@ -70,8 +73,23 @@ public class item : MonoBehaviour
             equippedLight = item;
         }
     }
+    private void OnTriggerStay(Collider other)
+    {
+        if(a == 0)
+        {
+            if (other.gameObject.CompareTag("item"))
+            {
+                ui11.SetActive(true);
+                if (Input.GetKey(pickupKey))
+                {
+                    ui11.SetActive(false);
+                    a++;
+                }
+            }
 
-    
+        }
+    }
+
 }
 
 
