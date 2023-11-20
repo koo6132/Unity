@@ -17,7 +17,7 @@ public class trigger2 : MonoBehaviour
         if(other.gameObject.CompareTag("Player"))
         {
             P = true;
-            Debug.Log("π‚¿Ω");
+            //Debug.Log("π‚¿Ω");
         }
     }
 }

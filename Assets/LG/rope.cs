@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class rope : MonoBehaviour
@@ -10,8 +9,9 @@ public class rope : MonoBehaviour
     public GameObject C;
     public GameObject player;      
     public GameObject tr;
-    public AudioClip D;
-    private AudioSource audioSource;
+    AudioSource D;
+
+    bool flag = false;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,7 @@ public class rope : MonoBehaviour
         A.SetActive(true);
         B.SetActive(true);
         C.SetActive(false);
-        audioSource = GetComponent<AudioSource>();
+        D = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -31,27 +31,27 @@ public class rope : MonoBehaviour
             bool P = tr.GetComponent<trigger2>().P;
             if (P)
             {
-                Interact();
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    StartCoroutine(DoSond());
+
+                }
             }
         }
+    }    
 
-
-    }
-    void Interact()
+    IEnumerator DoSond()
     {
-        
-        if (Input.GetKeyDown(KeyCode.E))
+        if (!flag)
         {
+            flag = true;
             Debug.Log("asd");
+            D.Play();
+            yield return new WaitForSeconds(3.0f);
             A.SetActive(false);
             B.SetActive(false);
             C.SetActive(true);
-            audioSource.clip = D;
-            audioSource.Play();
-           
         }
 
     }
-   
-    
 }
