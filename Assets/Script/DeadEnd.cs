@@ -29,20 +29,25 @@ public class DeadEnd : MonoBehaviour
             Time.timeScale = 1;
         }
         Resources.UnloadUnusedAssets();
-        switch (GameManager.instance.stage)
+        if(GameManager.instance.Level == "1_2")
         {
-            case 0:
-                SceneManager.LoadScene("1_1");
-                break;
-            case 1:
-                SceneManager.LoadScene("2");
-                break;
-            case 2:
-                SceneManager.LoadScene("3");
-                break;
-            case 3:
-                SceneManager.LoadScene("4");
-                break;
+            SceneManager.LoadScene("1_2");
+        }
+        else if (GameManager.instance.Level == "1_3")
+        {
+            SceneManager.LoadScene("1_3");
+        }
+        else if (GameManager.instance.Level == "2")
+        {
+            SceneManager.LoadScene("2");
+        }
+        else if (GameManager.instance.Level == "3")
+        {
+            SceneManager.LoadScene("3");
+        }
+        else if (GameManager.instance.Level == "4")
+        {
+            SceneManager.LoadScene("4");
         }
 
 

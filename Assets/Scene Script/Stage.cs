@@ -83,20 +83,24 @@ public class Stage : MonoBehaviour
         {
             case 0:
                 SceneManager.LoadScene("1_1");
+                GameManager.instance.Level = "1_1";
                 break;
             case 1:
                 SceneManager.LoadScene("2");
+                GameManager.instance.Level = "2";
                 break;
             case 2:
                 SceneManager.LoadScene("3");
+                GameManager.instance.Level = "3";
                 break;
             case 3:
                 SceneManager.LoadScene("4");
+                GameManager.instance.Level = "4";
                 break;
         }
 
 
-
+     
     }
     
 

@@ -27,10 +27,13 @@ public class Portal : MonoBehaviour
             {
                 SceneManager.LoadScene(stage);
                 PlayerPrefs.SetInt("PlayerStage", playerstage);
-                Debug.Log("³ª°¬½À´Ï´Ù");
+                GameManager.instance.Level = stage;
+                Debug.Log(SceneManager.GetActiveScene().name);
             }
             SceneManager.LoadScene(stage);
             Debug.Log("³ª°¬½À´Ï´Ù");
+            GameManager.instance.Level = stage;
+            Debug.Log(SceneManager.GetActiveScene().name);
 
         }
 

@@ -9,11 +9,11 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     bool isPause;
 
-    public int Level;
+    public string Level;
     public int stage;
     void Awake()
     {
-
+        
         if (instance == null)
         {
             instance = this;
@@ -26,9 +26,11 @@ public class GameManager : MonoBehaviour
 
 
     }
+  
     private void Update()
-    {
+    { 
         stage = PlayerPrefs.GetInt("Stage");
+        
     }
 }
 
