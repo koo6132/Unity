@@ -5,22 +5,33 @@ using UnityEngine;
 
 public class SoundUI : MonoBehaviour
 {
-    public GameObject A;
+    
     public AudioSource b;
 
     private void Start()
     {
         
     }
-    
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionStay(Collision collision)
     {
-        b.Play();
+            if (collision.gameObject.CompareTag("Player"))
+            {
+                
+                if (Input.GetKey(KeyCode.E))
+                {
+                Debug.Log("사운드 재생");
+                    
+                    b.Play();
+                    
+
+                }
+            }
+
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnCollisionExit(Collision collision)
     {
-        A.SetActive(false);
+       
     }
 
 
