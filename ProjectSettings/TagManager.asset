@@ -9,6 +9,7 @@ TagManager:
   - item
   - Light
   - rope
+  - AAA
   layers:
   - Default
   - TransparentFX
