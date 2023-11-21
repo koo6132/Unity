@@ -13,7 +13,13 @@ public class Stage1Dadanoff : MonoBehaviour {
     AudioSource audio;
 
     // Start is called before the first frame update
+<<<<<<< Updated upstream
     void Start() {
+=======
+    void Start()
+    {
+        audio.volume = PlayerPrefs.GetFloat("SFXv");
+>>>>>>> Stashed changes
         audio = GetComponent<AudioSource>();
     }
 

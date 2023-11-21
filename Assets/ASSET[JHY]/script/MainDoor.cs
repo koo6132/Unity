@@ -2,10 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorSlidingSide : MonoBehaviour
+public class MainDoor : MonoBehaviour
 {
     bool flag;
     public GameObject Door;
+    public KeyCode Key = KeyCode.G;
+    public float Range = 0.5f;
+    public AudioSource b;
+
 
     // Start is called before the first frame update
     void Start()
@@ -18,40 +22,36 @@ public class DoorSlidingSide : MonoBehaviour
     {
         if (flag == true)
         {
-            if (Door.transform.localPosition.x >= 0.1f)
+            if (Door.transform.localPosition.x >= -2.3f)
             {
-                
-                Door.transform.Translate(-0.01f, 0, 0);
+
+                Door.transform.Translate(-0.025f, 0, 0);
             }
         }
 
         if (flag == false)
         {
-            if (Door.transform.localPosition.x < 1.10f)
+            if (Door.transform.localPosition.x < -1.40f)
             {
-                
-                Door.transform.Translate(0.01f, 0, 0);
+
+                Door.transform.Translate(0.025f, 0, 0);
             }
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionStay(Collision collision)
     {
-<<<<<<< Updated upstream
-        flag = true;
-=======
         if (collision.gameObject.CompareTag("Player"))
         {
             if (Input.GetKey(Key))
             {
-                GetComponent<AudioSource>().volume = PlayerPrefs.GetFloat("SFXv");
                 flag = true;
-                Debug.Log("ï¿½È³ï¿½");
+                Debug.Log("¾È³ç");
                 b.Play();
+                b.volume = PlayerPrefs.GetFloat("SFXv");
             }
         }
 
->>>>>>> Stashed changes
     }
 
     private void OnTriggerExit(Collider other)

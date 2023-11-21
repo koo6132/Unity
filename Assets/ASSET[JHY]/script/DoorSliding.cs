@@ -51,6 +51,7 @@ public class DoorSliding : MonoBehaviour
         if (a == 0)
             if (collision.gameObject.CompareTag("Player"))
             {
+<<<<<<< Updated upstream
                 UiButton.SetActive(true);
                 if (Input.GetKey(KeyCode.E))
                 {
@@ -60,6 +61,14 @@ public class DoorSliding : MonoBehaviour
                     
                     UiButton.SetActive(false);
                     a++;
+=======
+                b.volume = PlayerPrefs.GetFloat("SFXv");
+                flag = true;
+                Debug.Log("¾È³ç");
+                b.Play();
+            }
+        }
+>>>>>>> Stashed changes
 
                 }
             }

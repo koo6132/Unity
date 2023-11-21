@@ -39,6 +39,7 @@ public class tr1 : MonoBehaviour
         {
             flag = true;
             audio1.Play();
+            audio1.volume = PlayerPrefs.GetFloat("SFXv");
             Debug.Log("d");
         }
 

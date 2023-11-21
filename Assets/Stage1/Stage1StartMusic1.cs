@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Stage1StartMusic : MonoBehaviour
+public class Stage1StartMusic1 : MonoBehaviour
 {
-
     AudioSource audio;
-    private bool hasPlayed = false;
+    public GameObject A;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,16 +19,23 @@ public class Stage1StartMusic : MonoBehaviour
 
 
     }
-
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player") && !hasPlayed)
+        if (other.gameObject.CompareTag("Player"))
         {
-            audio.volume = PlayerPrefs.GetFloat("SFXv");
+            A.SetActive(true);
             audio.Play();
-            hasPlayed = true;
+            audio.volume = PlayerPrefs.GetFloat("SFXv");
+
         }
 
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            A.SetActive(false);
+        }
     }
 }
 
