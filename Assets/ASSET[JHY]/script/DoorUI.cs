@@ -24,9 +24,9 @@ public class DoorUI : MonoBehaviour
                     Debug.Log("UI open");
                     onTriggerButton?.Invoke();
                     UiButton.SetActive(false);
-                    //a++;
+                //a++;
 
-                }
+            }
             }
 
     }

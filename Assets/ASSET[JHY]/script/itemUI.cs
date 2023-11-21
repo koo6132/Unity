@@ -9,11 +9,14 @@ public class itemUI : MonoBehaviour
     //public AudioSource b;
     public event Action onTriggerButton;
     public GameObject UiButton;
+    public GameObject UiButton2;
     int a = 0;
+    //public AudioSource b;
 
     private void Start()
     {
         UiButton.SetActive(false);
+        UiButton2.SetActive(false);
     }
     private void OnCollisionStay(Collision collision)
     {
@@ -28,6 +31,7 @@ public class itemUI : MonoBehaviour
                     //b.Play();
                     onTriggerButton?.Invoke();
                     UiButton.SetActive(false);
+                    UiButton2.SetActive(true);
                     a++;
 
                 }
