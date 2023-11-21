@@ -7,7 +7,7 @@ public class Walk: MonoBehaviour {
     public GameObject uigame;
 
     private bool isPlayerInside;
-    private float timeToShowUI = 3f;
+    private float timeToShowUI = 4f;
     private float currentTime = 0f;
     // Start is called before the first frame update
     void Start()

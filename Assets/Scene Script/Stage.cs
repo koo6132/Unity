@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+using TMPro;
 public class Stage : MonoBehaviour
 {
-    
     public Image stageImage;
-    public Text stageNameText ;
+    public TextMeshProUGUI stageNameText ;
     public Button startButton;
     [SerializeField]
     private string[] stageName = { "1", "2", "3", "4" };
@@ -30,7 +29,7 @@ public class Stage : MonoBehaviour
     {
       
          index = GameManager.instance.stage; 
-       stageNameText = transform.Find("Stage").GetComponent<Text>();
+       stageNameText = transform.Find("Stage").GetComponent<TextMeshProUGUI>();
     }
     
     public void onClickNextStage()
@@ -42,6 +41,7 @@ public class Stage : MonoBehaviour
             Debug.Log(index);
         }
         Debug.Log(index);
+        PlayerPrefs.SetInt("Stage", index);
     }
 
     public void onClickBackStage()
@@ -53,6 +53,7 @@ public class Stage : MonoBehaviour
             Debug.Log(index);
         }
         Debug.Log(index);
+        PlayerPrefs.SetInt("Stage", index);
     }
     private void Update()
     {
@@ -82,20 +83,24 @@ public class Stage : MonoBehaviour
         {
             case 0:
                 SceneManager.LoadScene("1_1");
+                GameManager.instance.Level = "1_1";
                 break;
             case 1:
                 SceneManager.LoadScene("2");
+                GameManager.instance.Level = "2";
                 break;
             case 2:
                 SceneManager.LoadScene("3");
+                GameManager.instance.Level = "3";
                 break;
             case 3:
                 SceneManager.LoadScene("4");
+                GameManager.instance.Level = "4";
                 break;
         }
 
 
-
+     
     }
     
 

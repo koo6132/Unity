@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Portal
   - Kill
+  - item
+  - Light
+  - rope
   layers:
   - Default
   - TransparentFX

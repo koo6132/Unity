@@ -24,10 +24,6 @@ public class tr1 : MonoBehaviour
     // Update is called once per frame
     private void Update() 
     {
-        if (Input.GetKey(KeyCode.E)) {
-            flag = true;
-        }
-
         if (flag) {
             if (A.transform.position.z < 21.0f)
                     {
@@ -39,7 +35,7 @@ public class tr1 : MonoBehaviour
 
     }
     private void OnTriggerEnter(Collider other) {
-        if (Input.GetKeyDown(KeyCode.E) && other.gameObject.CompareTag("Player") && !hasPlayed)
+        if (other.gameObject.CompareTag("Player") && !hasPlayed)
         {
             flag = true;
             audio1.Play();

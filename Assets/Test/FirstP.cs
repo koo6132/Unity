@@ -13,40 +13,38 @@ public class FirstP : MonoBehaviour
     public float fov = 60f;
     public bool invertCamera = false;
     public bool cameraCanMove = true;
-    public float mouseSensitivity = 2f;
+    public float mouseSensitivity = 10f;
     public float maxLookAngle = 90f;
-
+    public float DPI;
     // Internal Variables
     private float yaw = 0.0f;
     private float pitch = 0.0f;
     // Start is called before the first frame update
-   
-    private IEnumerator Start()
+
+    private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        mspeed = 0;
-        yield return new WaitForSeconds(0.5f);
-        mspeed = 500.0f;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        DPI =  PlayerPrefs.GetFloat("Mouse");
             transform.Rotate(mymouce * mspeed * Time.deltaTime * mouseR);
             mouseR = Input.GetAxis("Mouse X");
         if (cameraCanMove)
         {
-            yaw = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * mouseSensitivity;
+            yaw = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * DPI;
 
             if (!invertCamera)
             {
-                pitch -= mouseSensitivity * Input.GetAxis("Mouse Y");
+                pitch -= DPI * Input.GetAxis("Mouse Y");
             }
             else
             {
                 // Inverted Y
-                pitch += mouseSensitivity * Input.GetAxis("Mouse Y");
+                pitch += DPI * Input.GetAxis("Mouse Y");
             }
 
             // Clamp pitch between lookAngle
