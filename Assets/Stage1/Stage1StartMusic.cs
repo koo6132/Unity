@@ -24,7 +24,6 @@ public class Stage1StartMusic : MonoBehaviour
     { 
         if (other.gameObject.CompareTag("Player") && !hasPlayed)
         {
-            audio.volume = PlayerPrefs.GetFloat("SFXv");
             audio.Play();
             hasPlayed = true;
         }

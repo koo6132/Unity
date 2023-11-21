@@ -21,7 +21,7 @@ public class Kill : MonoBehaviour
     {
         if(collision.collider.CompareTag("Kill"))
         {
-            SceneManager.LoadScene("Result");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             Debug.Log("2¹ø");
         }
     }

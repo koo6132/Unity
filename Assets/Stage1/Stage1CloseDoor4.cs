@@ -48,7 +48,6 @@ public class Stage1CloseDoor4 : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Player") && !hasPlayed)
         {
-            audio.volume = PlayerPrefs.GetFloat("SFXv");
             audio.Play();
             hasPlayed = true;
         }

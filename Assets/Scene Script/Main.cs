@@ -27,7 +27,21 @@ public class Main: MonoBehaviour
         {
             Time.timeScale = 1;
         }
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        switch (index)
+        {
+            case 0:
+                SceneManager.LoadScene("1_1");
+                break;
+            case 1:
+                SceneManager.LoadScene("2");
+                break;
+            case 2:
+                SceneManager.LoadScene("3");
+                break;
+            case 3:
+                SceneManager.LoadScene("4");
+                break;
+        }
     }
     public void OnMain()
     {
