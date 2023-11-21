@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundUI : MonoBehaviour
+public class SoundUIBear : MonoBehaviour
 {
     public GameObject A;
     public AudioSource b;
@@ -20,7 +20,7 @@ public class SoundUI : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        A.SetActive(false);
+        b.Pause();
     }
 
 
