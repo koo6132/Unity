@@ -1,7 +1,24 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/ASSET[JHY]/Prefab/UI.prefab.meta
 guid: a4393c6b479cdb04ab6481c8d0b30a26
 PrefabImporter:
+========
+guid: 3b41e2d379b7109448367f1a396d16b8
+NativeFormatImporter:
+>>>>>>>> Stashed changes:Assets/HYJ/New Material.mat.meta
   externalObjects: {}
+=======
+<<<<<<<< HEAD:Assets/HYJ/New Material.mat.meta
+guid: 24b97145caef0144b942bd2e30adbe9b
+NativeFormatImporter:
+========
+guid: a4393c6b479cdb04ab6481c8d0b30a26
+PrefabImporter:
+>>>>>>>> JHY:Assets/ASSET[JHY]/Prefab/UI.prefab.meta
+  externalObjects: {}
+  mainObjectFileID: 2100000
+>>>>>>> Stashed changes
   userData: 
   assetBundleName: 
   assetBundleVariant: 
