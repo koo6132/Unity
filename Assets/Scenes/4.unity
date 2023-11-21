@@ -4639,7 +4639,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+<<<<<<< HEAD
+>>>>>>> HYJ
+=======
+=======
+>>>>>>> Stashed changes
 >>>>>>> HYJ
 --- !u!1001 &378291283
 PrefabInstance:
@@ -5017,17 +5023,31 @@ PrefabInstance:
     - target: {fileID: 400154, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 400154, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.7327
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> HYJ
       value: -0.12
       objectReference: {fileID: 0}
     - target: {fileID: 400154, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.74
+<<<<<<< HEAD
+>>>>>>> HYJ
+=======
+=======
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400154, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.7327
+>>>>>>> Stashed changes
 >>>>>>> HYJ
       objectReference: {fileID: 0}
     - target: {fileID: 400154, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
@@ -5064,6 +5084,11 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+>>>>>>> HYJ
 =======
 >>>>>>> Stashed changes
 >>>>>>> HYJ
