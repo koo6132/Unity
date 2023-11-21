@@ -29,6 +29,8 @@ public class Stage1LightOn : MonoBehaviour
             B.SetActive(true);
             audio.Play();
             hasPlayed = true;
+            audio.volume = PlayerPrefs.GetFloat("SFXv");
+
         }
 
     }

@@ -13,6 +13,7 @@ public class Cound : MonoBehaviour
 
     void Update()
     {
+      
         // 캐릭터와 타겟 사이의 거리 계산
         float distance = Vector3.Distance(character.position, target.position);
 

@@ -48,7 +48,7 @@ public class MainDoor : MonoBehaviour
                 flag = true;
                 Debug.Log("¾È³ç");
                 b.Play();
-
+                b.volume = PlayerPrefs.GetFloat("SFXv");
             }
         }
 

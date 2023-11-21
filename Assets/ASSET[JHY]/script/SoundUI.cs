@@ -10,11 +10,12 @@ public class SoundUI : MonoBehaviour
 
     private void Start()
     {
-        
+        b.volume = PlayerPrefs.GetFloat("SFXv");
     }
     
     private void OnTriggerEnter(Collider other)
     {
+        b.volume = PlayerPrefs.GetFloat("SFXv");
         b.Play();
     }
 

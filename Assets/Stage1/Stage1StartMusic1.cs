@@ -25,6 +25,8 @@ public class Stage1StartMusic1 : MonoBehaviour
         {
             A.SetActive(true);
             audio.Play();
+            audio.volume = PlayerPrefs.GetFloat("SFXv");
+
         }
 
     }

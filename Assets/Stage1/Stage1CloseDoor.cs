@@ -4,28 +4,19 @@ using UnityEngine;
 
 public class Stage1CloseDoor : MonoBehaviour
 {
-    public GameObject A;
-    public GameObject B;
-    private Transform TRA;
-    private Transform TRB;
-    private bool doorClosed = false;
-    private bool rotationStarted = false;
-    private float rotation = -126f;
-    private float currentRotation = 0f;
-    AudioSource audio;
-    private bool hasPlayed = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        TRA = A.GetComponent<Transform>();
-        TRB = B.GetComponent<Transform>();
-        audio = GetComponent<AudioSource>();
-        audio.loop = false;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< Updated upstream
+        
+=======
         if (doorClosed && !rotationStarted)
         {
             float rotationThisFrame = rotation * Time.deltaTime;
@@ -48,8 +39,10 @@ public class Stage1CloseDoor : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Player") && !hasPlayed)
         {
+            audio.volume = PlayerPrefs.GetFloat("SFXv");
             audio.Play();
             hasPlayed = true;
         }
+>>>>>>> Stashed changes
     }
 }
