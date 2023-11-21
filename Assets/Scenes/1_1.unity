@@ -538,11 +538,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< Updated upstream
     m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 100
+=======
+    m_FontSize: 150
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 200
+>>>>>>> Stashed changes
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -903,8 +911,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -380.32544, y: 80}
   m_SizeDelta: {x: 770.651, y: 144.4971}
+=======
+  m_AnchoredPosition: {x: -481.98975, y: 80}
+  m_SizeDelta: {x: 973.9794, y: 182.6211}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &178373730
 MonoBehaviour:
@@ -2395,11 +2408,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< Updated upstream
     m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
+=======
+    m_FontSize: 150
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 200
+>>>>>>> Stashed changes
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2531,8 +2552,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 467, y: 80}
   m_SizeDelta: {x: 765.82, y: 143.59}
+=======
+  m_AnchoredPosition: {x: 575, y: 80}
+  m_SizeDelta: {x: 976.3641, y: 183.0685}
+>>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &665457796
 MonoBehaviour:
