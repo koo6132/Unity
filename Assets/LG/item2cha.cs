@@ -86,10 +86,17 @@ public class item2cha : MonoBehaviour
                     a++;
                 }
             }
-
         }
+        
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject.CompareTag("item"))
+        {
+            ui11.SetActive(false);
+        }
+    }
 }
 
 
