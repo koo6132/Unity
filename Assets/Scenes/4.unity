@@ -4636,6 +4636,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blinkInterval: 1
   a: {fileID: 2061070462}
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> HYJ
 --- !u!1001 &378291283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5011,11 +5016,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400154, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 400154, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.7327
+=======
+      value: -0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 400154, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.74
+>>>>>>> HYJ
       objectReference: {fileID: 0}
     - target: {fileID: 400154, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5050,6 +5063,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> HYJ
 --- !u!1 &409204938 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8614613521742589398, guid: d1e65c39a4d558a4fb664f31671cb615, type: 3}
