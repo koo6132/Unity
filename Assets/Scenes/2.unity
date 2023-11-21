@@ -9186,7 +9186,7 @@ GameObject:
   - component: {fileID: 577909827}
   m_Layer: 0
   m_Name: Plane_Ocean (5)
-  m_TagString: Untagged
+  m_TagString: Kill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9958,6 +9958,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 404014, guid: 5cd829d670d42cf458be57a99ad05bf4, type: 3}
   m_PrefabInstance: {fileID: 629949185}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &631593400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 631593402}
+  - component: {fileID: 631593401}
+  m_Layer: 0
+  m_Name: Cube (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &631593401
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631593400}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &631593402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631593400}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.017519588, y: -0.2555535, z: 0.17411493, w: 0.9508257}
+  m_LocalPosition: {x: 11.7594, y: 3.768, z: 41.2785}
+  m_LocalScale: {x: 3.9369707, y: 0.010647, z: 1.456522}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 3.192, y: -29.527, z: 19.913}
 --- !u!1001 &637705553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12869,31 +12922,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.64
+      value: -14.12
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.28
+      value: 4.643
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 48.67
+      value: 42.9
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.715861
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.69824284
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12901,7 +12954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 88.572
       objectReference: {fileID: 0}
     - target: {fileID: 1694388104871467657, guid: 678bf8bc91771fa498236de892b83d1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -17195,7 +17248,7 @@ GameObject:
   - component: {fileID: 1185305152}
   m_Layer: 0
   m_Name: Plane_Ocean (2)
-  m_TagString: Untagged
+  m_TagString: Kill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22009,7 +22062,7 @@ GameObject:
   - component: {fileID: 1478369874}
   m_Layer: 0
   m_Name: Plane_Ocean (4)
-  m_TagString: Untagged
+  m_TagString: Kill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22115,7 +22168,7 @@ GameObject:
   - component: {fileID: 1484016717}
   m_Layer: 0
   m_Name: Plane_Ocean (8)
-  m_TagString: Untagged
+  m_TagString: Kill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -22715,7 +22768,7 @@ GameObject:
   - component: {fileID: 1549801167}
   m_Layer: 0
   m_Name: Plane_Ocean
-  m_TagString: Untagged
+  m_TagString: Kill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -23272,7 +23325,7 @@ GameObject:
   - component: {fileID: 1591274997}
   m_Layer: 0
   m_Name: Plane_Ocean (6)
-  m_TagString: Untagged
+  m_TagString: Kill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -23612,7 +23665,7 @@ GameObject:
   - component: {fileID: 1602788171}
   m_Layer: 0
   m_Name: Plane_Ocean (3)
-  m_TagString: Untagged
+  m_TagString: Kill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -24010,7 +24063,7 @@ GameObject:
   - component: {fileID: 1624046507}
   m_Layer: 0
   m_Name: Plane_Ocean (7)
-  m_TagString: Untagged
+  m_TagString: Kill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -29525,7 +29578,7 @@ GameObject:
   - component: {fileID: 1967498905}
   m_Layer: 0
   m_Name: Plane_Ocean (1)
-  m_TagString: Untagged
+  m_TagString: Kill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -30792,6 +30845,10 @@ PrefabInstance:
     - target: {fileID: 457206, guid: c5d5f1d29f2e94e45b0022124ff1f27f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 177.169
+      objectReference: {fileID: 0}
+    - target: {fileID: 6507112, guid: c5d5f1d29f2e94e45b0022124ff1f27f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32943,3 +33000,4 @@ SceneRoots:
   - {fileID: 868990026}
   - {fileID: 498130681}
   - {fileID: 147355874}
+  - {fileID: 631593402}
