@@ -10,6 +10,7 @@ public class button : MonoBehaviour
     public event Action onTriggerButton;
     public GameObject UiButton;
     int a = 0;
+    public GameObject Button;
 
     private void Start()
     {
@@ -23,6 +24,7 @@ public class button : MonoBehaviour
             UiButton.SetActive(true);
             if (Input.GetKey(KeyCode.E))
             {
+                Button.transform.position = new Vector3(0f, 0.5f, 0f);
                 Debug.Log("¹®¿­¸²");
                 A.SetActive(false);
                 b.Play();

@@ -9,7 +9,7 @@ public class Monster : MonoBehaviour
 {
     // 변수 선언
     public GameObject onOffObject; // 활성화/비활성화할 객체
-    public float Speed; // 몬스터의 기본 이동 속도
+    public float Speed = 2.5f; // 몬스터의 기본 이동 속도
     private Transform TR; // 몬스터의 트랜스폼
     private Transform PlayerTR; // 플레이어의 트랜스폼
     private Transform MOM;
@@ -20,14 +20,14 @@ public class Monster : MonoBehaviour
     public trtr trigrrer;
     private bool aaa = false;
     public float MonsterStop = 2; //몬스터 정지시간
-    public float SpeedS = 1.5f;
+    
 
    
 
     // Start 함수는 첫 번째 프레임 업데이트 전에 호출됩니다.
     void Start()
     {
-        Speed = SpeedS;
+        
         trList.ForEach(tr => {
             tr.onTriggerEnterEvent += ActiveObj; // 트리거에 진입할 때 활성화 이벤트에 대한 핸들러 추가
             
@@ -90,7 +90,7 @@ public class Monster : MonoBehaviour
 
     public void ActiveConceal() 
     {
-        Speed = SpeedS;
+        
         Debug.Log("돌아감");
         aaa = false;
     }
