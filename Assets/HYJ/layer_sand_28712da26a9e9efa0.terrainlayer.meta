@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< Updated upstream:Assets/_TerrainAutoUpgrade/layer_GR_Asphalt1_ASGR_Asphalt1_Nd261c09ae55ba1e3.terrainlayer.meta
-guid: 6d1beb0876b18ad41b64ec55eb34a20b
-========
-guid: 207a97820b30e1540bd27dafe79ff429
->>>>>>>> Stashed changes:Assets/HYJ/New Material.mat.meta
+guid: c51c4b9afb7572e4a840a77946af233f
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 8574412962073106934
