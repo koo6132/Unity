@@ -30,16 +30,6 @@ public class ItemPickup : MonoBehaviour
                     PickupItem(collider.gameObject);
                 }
             }
-
-            foreach (Collider collider in colliders)
-            {
-                // 아이템에 Item 태그가 있는지 확인
-                if (collider.CompareTag("Light"))
-                {
-                    // 아이템 획득 함수 호출
-                    PickupItem(collider.gameObject);
-                }
-            }
         }
     }
 
