@@ -3143,7 +3143,10 @@ MonoBehaviour:
   blinkInterval: 1
   a: {fileID: 2061070462}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &378291283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3519,11 +3522,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400154, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< Updated upstream
       value: -0.12
       objectReference: {fileID: 0}
     - target: {fileID: 400154, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.74
+=======
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400154, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.7327
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 400154, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3558,6 +3569,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b40793d471baab40aea2b7bb1831c8c, type: 3}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &409204938 stripped
 GameObject:
