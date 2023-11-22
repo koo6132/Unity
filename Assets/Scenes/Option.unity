@@ -666,11 +666,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2062849223}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 427.41, y: -344.33}
-  m_SizeDelta: {x: 933.93, y: 265.5}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1025.625, y: 602.92004}
+  m_SizeDelta: {x: 933.92993, y: 265.5}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463007526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1099,11 +1099,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2062849223}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2993.5, y: -699.1401}
-  m_SizeDelta: {x: 521.19, y: 229.84}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1334.095, y: 265.93994}
+  m_SizeDelta: {x: 521.18994, y: 229.83997}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &752588159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1621,11 +1621,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2062849223}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2993.5, y: -1034.5}
-  m_SizeDelta: {x: 521.19, y: 229.84}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1334.095, y: -69.420044}
+  m_SizeDelta: {x: 521.18994, y: 229.83997}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1237729440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1755,11 +1755,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2062849223}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 427.41, y: -681.31}
-  m_SizeDelta: {x: 933.93, y: 265.5}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1025.625, y: 265.94}
+  m_SizeDelta: {x: 933.92993, y: 265.5}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1278232128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2174,6 +2174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 32246fa41e3327d4d8d7be19e6c66d19, type: 3}
+  start: {fileID: 0}
 --- !u!1 &1710526291
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,11 +2491,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2062849223}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 427.41, y: -1016.6}
-  m_SizeDelta: {x: 933.93, y: 265.5}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1025.625, y: -69.349976}
+  m_SizeDelta: {x: 933.92993, y: 265.5}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1842556252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2703,10 +2704,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2062849223}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 3840, y: 2160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1844642008
 MonoBehaviour:
@@ -2775,11 +2776,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2062849223}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2993.5, y: -362.17}
-  m_SizeDelta: {x: 521.19, y: 229.84}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1334.095, y: 602.91}
+  m_SizeDelta: {x: 521.18994, y: 229.83997}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1988441485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3037,6 +3038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 94a5d501e63967b4a9c6152ca94d6b5e, type: 3}
+  start: {fileID: 0}
 --- !u!1 &2076704054
 GameObject:
   m_ObjectHideFlags: 0

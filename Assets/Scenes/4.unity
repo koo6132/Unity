@@ -21518,6 +21518,10 @@ PrefabInstance:
       value: Kill
       objectReference: {fileID: 0}
     - target: {fileID: 8614613521742589398, guid: d1e65c39a4d558a4fb664f31671cb615, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614613521742589398, guid: d1e65c39a4d558a4fb664f31671cb615, type: 3}
       propertyPath: m_TagString
       value: Kill
       objectReference: {fileID: 0}

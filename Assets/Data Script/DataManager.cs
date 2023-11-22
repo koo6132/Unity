@@ -7,7 +7,9 @@ using System.IO;
 public class SaveData
 {
     public int stage;
-
+    public float BGMv;
+    public float SFXv;
+    public float Mouse; 
 }
 
 public class DataManager : MonoBehaviour
@@ -30,7 +32,7 @@ public class DataManager : MonoBehaviour
             PlayerPrefs.SetInt("PlayerStage",0);
             PlayerPrefs.SetFloat("BGMv", 1);
             PlayerPrefs.SetFloat("SFXv", 1);
-            PlayerPrefs.SetFloat("Mouse", 10);
+            PlayerPrefs.SetFloat("Mouse", 5);
 
             JsonSave();
         }
@@ -53,8 +55,11 @@ public class DataManager : MonoBehaviour
     {
         SaveData saveData = new SaveData();
         saveData.stage = PlayerStage.instance.playerStage;
+        saveData.BGMv = PlayerPrefs.GetFloat("BGMv");
+        saveData.SFXv = PlayerPrefs.GetFloat("SFXv");
+        saveData.Mouse = PlayerPrefs.GetFloat("Mouse");
+        
         string json = JsonUtility.ToJson(saveData, true);
-
         File.WriteAllText(path, json);
     }
 

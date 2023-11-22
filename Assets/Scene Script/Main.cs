@@ -9,7 +9,18 @@ public class Main: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(PlayerPrefs.GetFloat("BGMv") == 0)
+        {
+            PlayerPrefs.SetFloat("BGMv", 1f); 
+        }
+        if (PlayerPrefs.GetFloat("SFXv") == 0)
+        {
+            PlayerPrefs.SetFloat("SFXv", 1f);
+        }
+        if (PlayerPrefs.GetFloat("Mouse") == 0)
+        {
+            PlayerPrefs.SetFloat("Mouse", 5f);
+        }
     }
 
     // Update is called once per frame
