@@ -13,6 +13,7 @@ public class Stage1LightOn : MonoBehaviour
     {
         audio = GetComponent<AudioSource>();
         B.SetActive(false);
+
     }
 
     // Update is called once per frame

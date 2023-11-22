@@ -1607,6 +1607,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 75750018f791aab4f8dc7bbb67bfa2c8, type: 3}
   - {fileID: 8300000, guid: 71ac6b46e6d30c148930ae38398c9f0f, type: 3}
   - {fileID: 8300000, guid: 9b6c818bfabf4c94d842c85486fd893d, type: 3}
+  - {fileID: 8300000, guid: 9a6b298fb876774458bcb004b3d46e0b, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,8 +2160,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -195, y: 201}
-  m_SizeDelta: {x: 3417.9836, y: 1449.5835}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2498.5732, y: 1036.9698}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1459138507
 MonoBehaviour:
@@ -2182,7 +2183,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "    Lucide\n        "
+  m_text: "   Lucide\n        "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: aa3849a6a307ee64280dc6224f16fafb, type: 2}
   m_sharedMaterial: {fileID: -4160370845881829622, guid: aa3849a6a307ee64280dc6224f16fafb, type: 2}
@@ -2425,11 +2426,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 767543737}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_SizeDelta: {x: 3840, y: 2160}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &1834696501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2499,8 +2500,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -195, y: 201}
-  m_SizeDelta: {x: 3417.9836, y: 1449.5835}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2498.6, y: 1037}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1840962915
 MonoBehaviour:
@@ -2522,7 +2523,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "    \n    Nightmare"
+  m_text: "    \n     Nightmare"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: aa3849a6a307ee64280dc6224f16fafb, type: 2}
   m_sharedMaterial: {fileID: -4160370845881829622, guid: aa3849a6a307ee64280dc6224f16fafb, type: 2}
